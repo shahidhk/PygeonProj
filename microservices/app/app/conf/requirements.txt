@@ -18,3 +18,4 @@ google_api_python_client==1.6.4
 beautifulsoup4==4.6.0
 python_dateutil==2.6.1
 protobuf==3.5.0.post1
+django_extensions==1.9.8

@@ -25,7 +25,7 @@ SECRET_KEY = '^pmba%j-ya9@lhp*y7oyah693nm=)(w680o06$te0#99(=%0vz'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ec2-34-209-113-156.us-west-2.compute.amazonaws.com', 'cb7bd905.ngrok.io', '4560006f.ngrok.io',
+ALLOWED_HOSTS = ['ec2-34-209-113-156.us-west-2.compute.amazonaws.com', 'cb7bd905.ngrok.io', '4560006f.ngrok.io', 'app.cavalier84.hasura-app.io',
                  'ec2-34-210-181-48.us-west-2.compute.amazonaws.com', 'www.vishal-gupta.me', '3f4db0e6.ngrok.io', '9b60d104.ngrok.io']
 
 
