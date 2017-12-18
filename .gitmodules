@@ -1,0 +1,3 @@
+[submodule "microservices/app/app/src/PyGeon"]
+	path = microservices/app/app/src/PyGeon
+	url = git@github.com:py-ranoid/PyGeon.git
