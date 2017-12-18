@@ -17,6 +17,8 @@ RUN pip install -r /tmp/requirements.txt
 COPY app/conf /conf
 COPY app/scripts /usr/src/scripts
 RUN chmod a+x /usr/src/scripts/runserver.sh
+RUN pip install google-cloud
+RUN pip install google-cloud-firestore
 
 # Copy the source
 COPY app/src /usr/src/app

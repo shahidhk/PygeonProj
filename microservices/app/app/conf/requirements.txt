@@ -20,5 +20,3 @@ python_dateutil==2.6.1
 protobuf==3.5.0.post1
 django_extensions==1.9.8
 firebase_admin==2.6.0
-google_cloud==1.2.0
-google_cloud_firestore==0.28.0
