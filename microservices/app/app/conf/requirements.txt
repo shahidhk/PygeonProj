@@ -19,3 +19,6 @@ beautifulsoup4==4.6.0
 python_dateutil==2.6.1
 protobuf==3.5.0.post1
 django_extensions==1.9.8
+firebase_admin==2.6.0
+google-cloud.datastore==1.2.0
+google-cloud.firestore_v1beta1==0.28.0
