@@ -1,0 +1,8 @@
+{
+'Engine':{'Do you hear a heavy knocking noise coming from the engine?':'It is probably due to worn engine bearings. If this is the case they will have to be replaced.',
+'Do you hear a hissing noise coming from the engine?':'There is a leak in either the intake manifold or one of its associated parts. If so you will need to get the gasket tightened or even replaced.',
+'Does it feel like there is a lot of power ?':'The ignition timing is faulty and will need to be looked at by a mechanic.',
+'When running, does the engine vibrates violently and lack power ?':'A misfire in one of the cylinders. To resolve the problem a ignition coil will have to be replaced.'
+'Does the engine not start and produce a clicking noise instead ?':'Turn on the headlights. If they do not work then it the problem is a flat battery.'
+'Are the lights working even though the engine is not starting': 'The problem is more serious. It could be a problem with the starter motor. You will need to call a mechanic.'}
+}
