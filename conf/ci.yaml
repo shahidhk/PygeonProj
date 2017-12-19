@@ -8,8 +8,8 @@ remotes:
     
     '{{ cluster.metadata.namespaces.user }}.app':
       app:
-        dockerfile: Dockerfile
-        path: .
+        dockerfile: microservices/app/Dockerfile
+        path: microservices/app
     # Add new remotes here above this line
     # Example:
     
