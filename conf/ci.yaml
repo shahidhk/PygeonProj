@@ -5,8 +5,10 @@ remotes:
   # Default remote to push code and configuration
   {{ cluster.name }}:
     <<: {}
+
 	app:
 	<<: {}
+
     '{{ cluster.metadata.namespaces.user }}.app':
       app:
         dockerfile: Dockerfile
