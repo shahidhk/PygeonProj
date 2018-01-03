@@ -44,6 +44,21 @@ items:
           - containerPort: 8080
             protocol: TCP
           resources: {}
+        - image: hasura/base-git-image:0.7
+          imagePullPolicy: IfNotPresent
+          name: worker
+          resources: {}
+        - image: hasura/base-git-image:0.7
+          imagePullPolicy: IfNotPresent
+          name: beat
+          resources: {}
+        - image: hasura/base-git-image:0.7
+          imagePullPolicy: IfNotPresent
+          name: flower
+          ports:
+          - containerPort: 5555
+            protocol: TCP
+          resources: {}
         securityContext: {}
         terminationGracePeriodSeconds: 0
   status: {}
