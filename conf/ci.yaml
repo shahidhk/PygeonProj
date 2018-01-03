@@ -13,9 +13,21 @@ remotes:
       app:
         dockerfile: Dockerfile
         path: .
+
+      worker:
+        dockerfile: Dockerfile_worker
+        path: .
+
+      beat:
+        dockerfile: Dockerfile_beat
+        path: .
+
+      flower:
+        dockerfile: Dockerfile_flower
+        path: .
     # Add new remotes here above this line
     # Example:
-    
+
     # remote-name:
     #   namespace.service-name:
     #     container-name:

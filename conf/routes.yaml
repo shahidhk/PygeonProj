@@ -171,4 +171,11 @@ app:
     upstreamServicePath: /
     upstreamServicePort: 80
 
-
+flower:
+  /:
+    corsPolicy: allow_all
+    upstreamService:
+      name: flower
+      namespace: '{{ cluster.metadata.namespaces.user }}'
+    upstreamServicePath: /
+    upstreamServicePort: 5555
